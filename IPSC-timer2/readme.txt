@@ -1,0 +1,1 @@
+zdroj - http://hacknorway.com/wordpress/ipsc-timer/

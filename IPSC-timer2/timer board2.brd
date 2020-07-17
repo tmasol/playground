@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.3">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="-26.5" y1="-5.7" x2="-33.2" y2="-10.4" width="1.6764" layer="21"/>
+<wire x1="-26.5" y1="-16" x2="-26.3" y2="-32.2" width="1.6764" layer="21"/>
+<wire x1="-23.7" y1="-16.2" x2="-37.6" y2="-15" width="1.6764" layer="21"/>
+</plain>
+<libraries>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+</elements>
+<signals>
+<signal name="S$262">
+<wire x1="-0.3" y1="-85.6" x2="-0.3" y2="-0.6" width="0.4064" layer="1"/>
+<wire x1="-0.3" y1="-0.6" x2="-50.3" y2="-0.6" width="0.4064" layer="1"/>
+<wire x1="-50.3" y1="-0.6" x2="-50.3" y2="-85.6" width="0.4064" layer="1"/>
+<wire x1="-50.3" y1="-85.6" x2="-0.3" y2="-85.6" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$263">
+<via x="-10.3" y="-83.983" extent="1-16" drill="0.6" diameter="1.617"/>
+</signal>
+<signal name="S$264">
+<via x="-44.8" y="-83.983" extent="1-16" drill="0.6" diameter="1.6764"/>
+</signal>
+<signal name="S$265">
+<via x="-10.3" y="-2.8" extent="1-16" drill="0.6" diameter="1.6764"/>
+</signal>
+<signal name="S$266">
+<via x="-44.8" y="-2.8" extent="1-16" drill="0.6" diameter="1.6764"/>
+</signal>
+<signal name="S$267">
+<via x="-27.3" y="-26.6" extent="1-16" drill="0.6" diameter="6"/>
+</signal>
+<signal name="S$269">
+<via x="-41.76" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$270">
+<via x="-39.22" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$271">
+<via x="-36.68" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$272">
+<via x="-34.14" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$273">
+<via x="-31.6" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$274">
+<via x="-29.06" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$275">
+<via x="-26.52" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$276">
+<via x="-23.98" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$277">
+<via x="-21.44" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$278">
+<via x="-18.9" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$279">
+<via x="-16.36" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$280">
+<via x="-13.82" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$281">
+<via x="-11.28" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$282">
+<via x="-8.74" y="-58.02" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$283">
+<via x="-41.76" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$284">
+<via x="-39.22" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$285">
+<via x="-36.68" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$286">
+<via x="-34.14" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$287">
+<via x="-31.6" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$288">
+<via x="-29.06" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$289">
+<via x="-26.52" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$290">
+<via x="-23.98" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$291">
+<via x="-21.44" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$292">
+<via x="-18.9" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$293">
+<via x="-16.36" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$294">
+<via x="-13.82" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$295">
+<via x="-11.28" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$296">
+<via x="-8.74" y="-50.4" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$297">
+<wire x1="-41.7" y1="-63.6" x2="-41.7" y2="-58" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$298">
+<wire x1="-39.2" y1="-63.6" x2="-39.2" y2="-58" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$299">
+<wire x1="-36.6" y1="-63.6" x2="-36.6" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$304">
+<wire x1="-24" y1="-57.9" x2="-24" y2="-78.5" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$306">
+<wire x1="-18.9" y1="-74.3" x2="-18.9" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$307">
+<wire x1="-16.3" y1="-72.4" x2="-16.3" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$308">
+<wire x1="-13.9" y1="-69.6" x2="-13.9" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$309">
+<wire x1="-26.6" y1="-50.4" x2="-28.8" y2="-50.4" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$311">
+<wire x1="-41.8" y1="-50.4" x2="-41.8" y2="-32.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$312">
+<wire x1="-39.2" y1="-50.4" x2="-39.2" y2="-35.4" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$313">
+<wire x1="-36.7" y1="-50.4" x2="-36.7" y2="-38" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$314">
+<wire x1="-34.1" y1="-50.4" x2="-34.1" y2="-41.4" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$315">
+<wire x1="-31.6" y1="-50.3" x2="-31.6" y2="-44.8" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$316">
+<wire x1="-18.9" y1="-50.4" x2="-18.9" y2="-38.5" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$317">
+<wire x1="-21.5" y1="-50.4" x2="-21.5" y2="-41.6" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$318">
+<wire x1="-24.1" y1="-50.4" x2="-24.1" y2="-44.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$319">
+<wire x1="-26.5" y1="-50.4" x2="-26.5" y2="-33.6" width="1.6764" layer="1"/>
+<wire x1="-29.1" y1="-50.4" x2="-29.1" y2="-44.9" width="1.6764" layer="1"/>
+<wire x1="-26.5" y1="-50.4" x2="-29.1" y2="-50.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$320">
+<wire x1="-8.7" y1="-50.4" x2="-8.7" y2="-25.1" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$321">
+<wire x1="-16.4" y1="-50.4" x2="-16.4" y2="-34.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$322">
+<wire x1="-13.9" y1="-50.4" x2="-13.9" y2="-31.5" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$323">
+<wire x1="-11.3" y1="-50.3" x2="-11.3" y2="-27.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$324">
+<wire x1="-11.3" y1="-67" x2="-11.3" y2="-57.8" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$325">
+<wire x1="-8.8" y1="-63.4" x2="-8.8" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$301">
+<wire x1="-34.1" y1="-63.5" x2="-34.1" y2="-58" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$302">
+<wire x1="-31.6" y1="-74" x2="-31.6" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$303">
+<wire x1="-29.1" y1="-63.4" x2="-29.1" y2="-58" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$310">
+<wire x1="-26.5" y1="-63.4" x2="-26.5" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$268">
+<via x="-23.71" y="-36.6" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$300">
+<via x="-26.54" y="-36.6" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$326">
+<via x="-29.37" y="-36.6" extent="1-16" drill="0.6" diameter="1.016"/>
+</signal>
+<signal name="S$327">
+<wire x1="-29.4" y1="-39.1" x2="-29.4" y2="-33.7" width="1.6764" layer="1"/>
+<wire x1="-29.4" y1="-33.7" x2="-29.4" y2="-33.6" width="1.6764" layer="1"/>
+<wire x1="-29.4" y1="-33.7" x2="-33" y2="-30.1" width="1.6764" layer="1"/>
+<wire x1="-33" y1="-30.1" x2="-33" y2="-10.6" width="1.6764" layer="1"/>
+<wire x1="-33" y1="-10.6" x2="-46.5" y2="-10.6" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$328">
+<via x="-47.1" y="-10.6" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-47.1" y="-6.5" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-47.1" y1="-6.5" x2="-47.1" y2="-10.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$329">
+<wire x1="-23.9" y1="-39.2" x2="-23.9" y2="-33.7" width="1.6764" layer="1"/>
+<wire x1="-23.9" y1="-33.7" x2="-21.7" y2="-31.5" width="1.6764" layer="1"/>
+<wire x1="-21.7" y1="-31.5" x2="-21.7" y2="-19.6" width="1.6764" layer="1"/>
+<wire x1="-21.7" y1="-19.6" x2="-28.6" y2="-19.6" width="1.6764" layer="1"/>
+<wire x1="-28.6" y1="-19.6" x2="-29.8" y2="-18.4" width="1.6764" layer="1"/>
+<wire x1="-29.8" y1="-18.4" x2="-29.8" y2="-6.6" width="1.6764" layer="1"/>
+<wire x1="-29.8" y1="-6.6" x2="-45.6" y2="-6.6" width="1.6764" layer="1"/>
+<wire x1="-46.9" y1="-6.5" x2="-45.6" y2="-6.6" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$330">
+<wire x1="-26.5" y1="-6.6" x2="-1.7" y2="-6.6" width="1.6764" layer="1"/>
+<wire x1="-1.7" y1="-6.6" x2="-1.7" y2="-81" width="1.6764" layer="1"/>
+<wire x1="-1.7" y1="-81" x2="-47.5" y2="-81" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$331">
+<wire x1="-26.5" y1="-63.5" x2="-26.6" y2="-69.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$332">
+<wire x1="-29.1" y1="-63.6" x2="-29.1" y2="-71.1" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$333">
+<wire x1="-31.6" y1="-81" x2="-29.4" y2="-81" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$356">
+<via x="-26.6" y="-32.2" extent="1-16" drill="0.6" diameter="3.5"/>
+</signal>
+<signal name="S$305">
+<via x="-26.5" y="-16.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-23.3" y="-16.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-23.3" y1="-16.2" x2="-26.5" y2="-16.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$342">
+<via x="-24" y="-43.5" extent="1-16" drill="0.6" diameter="2.5"/>
+<via x="-31.6" y="-43.6" extent="1-16" drill="0.6" diameter="2.5"/>
+<wire x1="-24" y1="-43.5" x2="-31.6" y2="-43.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$2">
+<via x="-22.7" y="-10.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33" y="-14.9" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33.1" y="-19.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33" y="-23.4" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33.1" y="-27.9" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-26.5" y="-5.5" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-33" y1="-23.4" x2="-33.1" y2="-27.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.1" y1="-19.1" x2="-33" y2="-23.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-33" y1="-14.9" x2="-33.1" y2="-19.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.7" y1="-10.2" x2="-33" y2="-14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.5" y1="-5.5" x2="-22.7" y2="-10.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$1">
+<via x="-42" y="-10.6" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-37.9" y="-10.5" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33.4" y="-10.6" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-37.9" y1="-10.5" x2="-42" y2="-10.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.4" y1="-10.6" x2="-37.9" y2="-10.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$343">
+<via x="-21.7" y="-41" extent="1-16" drill="0.6" diameter="3"/>
+<via x="-19.2" y="-37.7" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-16.8" y="-34.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-14.4" y="-30.8" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-12.1" y="-27.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-9.5" y="-24.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-33.6" y="-41.1" extent="1-16" drill="0.6" diameter="3"/>
+<via x="-35.9" y="-37.7" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-38.9" y="-34.7" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-41.7" y="-31.6" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-21.5" y="-71" extent="1-16" drill="0.6" diameter="2.5"/>
+<via x="-8.4" y="-10.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-13" y="-10.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-17.7" y="-10.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-21.7" y1="-41" x2="-21.5" y2="-71" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.2" y1="-37.7" x2="-21.7" y2="-41" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.8" y1="-34.2" x2="-19.2" y2="-37.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.4" y1="-30.8" x2="-16.8" y2="-34.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.1" y1="-27.2" x2="-14.4" y2="-30.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.5" y1="-24.2" x2="-12.1" y2="-27.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.6" y1="-41.1" x2="-21.7" y2="-41" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.9" y1="-37.7" x2="-33.6" y2="-41.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.9" y1="-34.7" x2="-35.9" y2="-37.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.7" y1="-31.6" x2="-38.9" y2="-34.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.4" y1="-10.1" x2="-9.5" y2="-24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-13" y1="-10.1" x2="-8.4" y2="-10.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.7" y1="-10.2" x2="-13" y2="-10.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$344">
+<via x="-10.4" y="-67.3" extent="1-16" drill="0.6" diameter="3"/>
+</signal>
+<signal name="S$4">
+<via x="-12.7" y="-70.4" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-8.1" y="-64.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-8.1" y1="-64.2" x2="-12.7" y2="-70.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$345">
+<via x="-15.5" y="-73" extent="1-16" drill="0.6" diameter="3"/>
+</signal>
+<signal name="S$346">
+<via x="-44" y="-68.7" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-39.4" y="-77.2" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-36.7" y="-74.4" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-47.3" y="-80.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-43.3" y="-80.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-35.2" y="-80.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<wire x1="-43.3" y1="-80.1" x2="-47.3" y2="-80.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.4" y1="-77.2" x2="-43.3" y2="-80.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7" y1="-74.4" x2="-39.4" y2="-77.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.2" y1="-80.1" x2="-39.4" y2="-77.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-44" y1="-68.7" x2="-36.7" y2="-74.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$347">
+<via x="-18.6" y="-75" extent="1-16" drill="0.6" diameter="3"/>
+</signal>
+<signal name="S$348">
+<via x="-34.3" y="-71.2" extent="1-16" drill="0.6" diameter="3"/>
+</signal>
+<signal name="S$350">
+<via x="-30.1" y="-80.1" extent="1-16" drill="0.6" diameter="3.5"/>
+<via x="-28.9" y="-71.8" extent="1-16" drill="0.6" diameter="3"/>
+<wire x1="-28.9" y1="-71.8" x2="-30.1" y2="-80.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$335">
+<via x="-31.6" y="-74.2" extent="1-16" drill="0.6" diameter="3.5"/>
+</signal>
+<signal name="S$8">
+<wire x1="-21.4" y1="-70.3" x2="-21.4" y2="-57.9" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$336">
+<wire x1="-26.7" y1="-16.2" x2="-26.7" y2="-9" width="1.6764" layer="1"/>
+<wire x1="-26.7" y1="-9" x2="-5" y2="-9" width="1.6764" layer="1"/>
+<wire x1="-5" y1="-9" x2="-5" y2="-78.5" width="1.6764" layer="1"/>
+<wire x1="-5" y1="-78.5" x2="-23.7" y2="-78.5" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$338">
+<wire x1="-34.1" y1="-64.1" x2="-34.8" y2="-64.8" width="1.6764" layer="1"/>
+<wire x1="-34.8" y1="-64.8" x2="-34.8" y2="-70" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$339">
+<wire x1="-36.7" y1="-64" x2="-37.4" y2="-64.7" width="1.6764" layer="1"/>
+<wire x1="-37.4" y1="-64.7" x2="-37.4" y2="-73.4" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$340">
+<wire x1="-39.2" y1="-64.2" x2="-39.9" y2="-64.9" width="1.6764" layer="1"/>
+<wire x1="-39.9" y1="-64.9" x2="-39.9" y2="-76.3" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$341">
+<wire x1="-42.1" y1="-63.8" x2="-44" y2="-65.7" width="1.6764" layer="1"/>
+<wire x1="-44" y1="-65.7" x2="-44" y2="-67.6" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$3">
+<via x="-37.7" y="-14.9" extent="1-16" drill="0.6" diameter="3"/>
+<via x="-40.5" y="-14.8" extent="1-16" drill="0.6" diameter="3"/>
+<via x="-45.1" y="-14.7" extent="1-16" drill="0.6" diameter="3"/>
+<wire x1="-40.5" y1="-14.8" x2="-45.1" y2="-14.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.7" y1="-14.9" x2="-40.5" y2="-14.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$355">
+<via x="-42.9" y="-17.4" extent="1-16" drill="0.6" diameter="3"/>
+<via x="-42.9" y="-20" extent="1-16" drill="0.6" diameter="3"/>
+<wire x1="-42.9" y1="-17.4" x2="-42.9" y2="-20" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="S$358">
+<wire x1="-29.1" y1="-44.7" x2="-26.7" y2="-44.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$5">
+<wire x1="-8.8" y1="-54.9" x2="-8.8" y2="-56.1" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$6">
+<wire x1="-9.5" y1="-55.5" x2="-8.2" y2="-55.5" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$7">
+<wire x1="-26.6" y1="-69.8" x2="-26.6" y2="-70.4" width="1.6764" layer="1"/>
+<wire x1="-26.6" y1="-70.4" x2="-26.3" y2="-70.7" width="1.6764" layer="1"/>
+<wire x1="-26.3" y1="-70.7" x2="-26.3" y2="-80.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$9">
+<wire x1="-45" y1="-14.6" x2="-45" y2="-10.7" width="1.6764" layer="1"/>
+</signal>
+<signal name="S$10">
+<wire x1="-15.4" y1="-11.4" x2="-15.4" y2="-13.3" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$11">
+<wire x1="-16.3" y1="-12.4" x2="-14.5" y2="-12.4" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$12">
+<wire x1="-47.1" y1="-2.7" x2="-47.1" y2="-4.1" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$13">
+<wire x1="-47.9" y1="-3.4" x2="-46.3" y2="-3.4" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$14">
+<wire x1="-18.3" y1="-19.5" x2="-18.3" y2="-17.5" width="0.4064" layer="1"/>
+<wire x1="-18.3" y1="-17.5" x2="-18.2" y2="-17.4" width="0.4064" layer="1" curve="-90"/>
+<wire x1="-18.2" y1="-17.4" x2="-16.9" y2="-17.4" width="0.4064" layer="1"/>
+<wire x1="-16.9" y1="-17.4" x2="-16.4" y2="-17.9" width="0.4064" layer="1" curve="-90"/>
+<wire x1="-16.4" y1="-17.9" x2="-16.4" y2="-18.4" width="0.4064" layer="1"/>
+<wire x1="-16.4" y1="-18.4" x2="-16.6" y2="-18.6" width="0.4064" layer="1" curve="-90"/>
+<wire x1="-16.6" y1="-18.6" x2="-17.6" y2="-18.6" width="0.4064" layer="1"/>
+<wire x1="-17.6" y1="-18.6" x2="-16.7" y2="-19.5" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$15">
+<wire x1="-15.5" y1="-18.5" x2="-14.4" y2="-18.5" width="0.4064" layer="1"/>
+<wire x1="-14.4" y1="-18.5" x2="-14.2" y2="-18.3" width="0.4064" layer="1"/>
+<wire x1="-14.2" y1="-18.3" x2="-14.1" y2="-17.9" width="0.4064" layer="1"/>
+<wire x1="-14.1" y1="-17.9" x2="-14.4" y2="-17.6" width="0.4064" layer="1"/>
+<wire x1="-14.4" y1="-17.6" x2="-14.6" y2="-17.5" width="0.4064" layer="1"/>
+<wire x1="-14.6" y1="-17.5" x2="-15.4" y2="-17.5" width="0.4064" layer="1"/>
+<wire x1="-15.4" y1="-17.5" x2="-15.7" y2="-17.7" width="0.4064" layer="1"/>
+<wire x1="-15.7" y1="-17.7" x2="-15.8" y2="-18.3" width="0.4064" layer="1"/>
+<wire x1="-15.8" y1="-18.3" x2="-15.8" y2="-18.8" width="0.4064" layer="1"/>
+<wire x1="-15.8" y1="-18.8" x2="-15.7" y2="-19.2" width="0.4064" layer="1"/>
+<wire x1="-15.7" y1="-19.2" x2="-15.3" y2="-19.5" width="0.4064" layer="1"/>
+<wire x1="-15.3" y1="-19.5" x2="-14.2" y2="-19.5" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$16">
+<wire x1="-13.6" y1="-17.5" x2="-12.9" y2="-19.6" width="0.4064" layer="1"/>
+<wire x1="-12.9" y1="-19.6" x2="-12.2" y2="-17.5" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$17">
+<wire x1="-10.2" y1="-17.8" x2="-10.1" y2="-17.6" width="0.4064" layer="1"/>
+<wire x1="-10.1" y1="-17.6" x2="-9.7" y2="-17.3" width="0.4064" layer="1"/>
+<wire x1="-9.7" y1="-17.3" x2="-9.2" y2="-17.2" width="0.4064" layer="1"/>
+<wire x1="-9.2" y1="-17.2" x2="-8.7" y2="-17.3" width="0.4064" layer="1"/>
+<wire x1="-8.7" y1="-17.3" x2="-8.5" y2="-17.7" width="0.4064" layer="1"/>
+<wire x1="-8.5" y1="-17.7" x2="-8.6" y2="-18.2" width="0.4064" layer="1"/>
+<wire x1="-8.6" y1="-18.2" x2="-10.2" y2="-19.7" width="0.4064" layer="1"/>
+<wire x1="-10.2" y1="-19.7" x2="-8.4" y2="-19.7" width="0.4064" layer="1"/>
+</signal>
+<signal name="S$18">
+<wire x1="-11.5" y1="-19.7" x2="-11.4" y2="-19.7" width="0.4064" layer="1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
